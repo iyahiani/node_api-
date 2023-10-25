@@ -16,7 +16,7 @@ exports.signup = (req, res) => {
   verify.checkDuplicateUsernameOrEmail(req, res);
   User.create({
     username: req.body.nom,
-    lastnale : req.body.prenom,
+    lastname : req.body.prenom,
     email: req.body.email,
     password: bcrypt.hashSync(req.body.password, 8)
   })

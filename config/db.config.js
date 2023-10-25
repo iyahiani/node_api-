@@ -1,9 +1,9 @@
 
 module.exports = {
-  HOST: "127.0.0.1",
-  USER: "ismael",
-  PASSWORD: "root",
-  DB: "wozzu",
+  HOST: "srv447.hstgr.io",
+  USER: "u417867344_root",
+  PASSWORD: "Enia@122020",
+  DB: "users",
   dialect: "mysql",
   pool: {
     max: 5,
