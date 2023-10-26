@@ -8,6 +8,7 @@ const app = express();
 
 
 var port = process.env.PORT || "4000";
+console.log(port);
 app.set("port", port);
 
 
